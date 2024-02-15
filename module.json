@@ -1,7 +1,7 @@
 {
     "id": "twitch-chat-integration",
     "name": "twitch-chat-integration",
-    "title": "twitch-chat-integration",
+    "title": "Twitch Chat Integration",
     "description": "A module to pull twitch messages into foundry chat",
     "version": "1.0.0",
     "authors": [
@@ -15,6 +15,13 @@
         "minimum": "11",
         "verified": "11"
     },
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
     "scripts": [
         "src/twitch-client/client.js",
         "src/twitch-client/message-parser.js",
@@ -31,5 +38,17 @@
         "src/styles.css"
     ],
     "manifest": "https://github.com/Weesol27/twitch-chat-integration/blob/debug/module.json",
-    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip",
+    "relationships.requires": [
+      {
+        "id": "_chatcommands",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/Chat-Commands-Lib/releases/download/1.2.0/module.json"
+      },
+      {
+        "id": "socketlib",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/v1.0.12/module.json"
+      }
+    ]
   }

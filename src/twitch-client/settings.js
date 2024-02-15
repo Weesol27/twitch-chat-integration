@@ -40,7 +40,7 @@ class TwitchClientSettings {
         });
         game.settings.register(CANONICAL_NAME, "user-id", {
             name: game.i18n.localize("TWITCHCHAT.user-id"),
-            hint: game.i18n.localize("TWITCHCHAT.SpeakAs"),
+            hint: game.i18n.localize("TWITCHCHAT.user-id"),
             scope: "world",
             requiresReload: true,
             config: true,

@@ -17,5 +17,7 @@
     "TWITCHCHAT.DebugMode": "Enable debug logging",
     "TWITCHCHAT.DebugModeHint": "Enable debug logging to the console",
     "TWITCHCHAT.ConnectionNotices": "Enable connection notices",
-    "TWITCHCHAT.ConnectionNoticesHint": "Enable connection notices to be sent to Foundry"
+    "TWITCHCHAT.ConnectionNoticesHint": "Enable connection notices to be sent to Foundry",
+    "TWITCHCHAT.BlackList": "List of users seperated by a comma to ignore",
+    "TWITCHCHAT.user-id": "The User ID to recieve Twitch Messages as"
 }
