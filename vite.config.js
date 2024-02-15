@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 import pkg from "./package.json"
 
 export default defineConfig({
-    root: 'src/',
+    root: 'modules/',
     publicDir: resolve(__dirname, 'public'),
     base: `/modules/${pkg.name}/`,
     server: {
