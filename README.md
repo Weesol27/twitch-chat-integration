@@ -1,3 +1,3 @@
-# My Content Module
+# Twitch-chat-integration
 
-A template for creating your own Foundry VTT content module.
+A twitch chat module based on https://github.com/patrickporto/twitch-chat 
