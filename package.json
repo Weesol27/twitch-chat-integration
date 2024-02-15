@@ -8,8 +8,8 @@
         "build:watch": "vite build --watch",
         "postversion": "npm run postversion:update-module-version && npm run postversion:update-module-manifest && npm run postversion:update-module-download",
         "postversion:update-module-version": "jq '.version = \"'${npm_package_version}'\"' ./public/module.json > ./public/module.json.tmp && mv ./public/module.json.tmp ./public/module.json",
-        "postversion:update-module-manifest": "jq '.manifest = \"https://github.com/patrickporto/twitch-chat/releases/download/'${npm_package_version}'/module.json\"' ./public/module.json > ./public/module.json.tmp && mv ./public/module.json.tmp ./public/module.json",
-        "postversion:update-module-download": "jq '.download = \"https://github.com/patrickporto/twitch-chat/releases/download/'${npm_package_version}'/twitch-chat.zip\"' ./public/module.json > ./public/module.json.tmp && mv ./public/module.json.tmp ./public/module.json"
+        "postversion:update-module-manifest": "jq '.manifest = \"https://github.com/Weesol27/twitch-chat-integration/releases/download/'${npm_package_version}'/module.json\"' ./public/module.json > ./public/module.json.tmp && mv ./public/module.json.tmp ./public/module.json",
+        "postversion:update-module-download": "jq '.download = \"https://github.com/Weesol27/twitch-chat-integration/releases/download/'${npm_package_version}'/twitch-chat-integration.zip\"' ./public/module.json > ./public/module.json.tmp && mv ./public/module.json.tmp ./public/module.json"
     },
     "devDependencies": {
         "@league-of-foundry-developers/foundry-vtt-types": "git://github.com/League-of-Foundry-Developers/foundry-vtt-types.git#main",
