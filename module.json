@@ -75,6 +75,6 @@
             "type": "Adventure"
         }
     ],
-    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+    "manifest": "https://github.com/Weesol27/twitch-chat-integration/blob/debug/module.json",
     "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
   }

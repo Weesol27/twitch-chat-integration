@@ -1,0 +1,43 @@
+{
+  "id": "bi0-twitch-chat",
+  "version": "11.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "title": "Bi0 Twitch Chatter",
+  "description": "A Foundry VTT module based on Darkmoor's(patrickporto) twitch_chat.",
+  "authors": [
+    {
+      "name": "bi0ha2a7d",
+      "email": "bi0ha2a7d@bi0ha2a7d.co.uk"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "esmodules": [
+    "twitch-chat.mjs"
+  ],
+  "styles": [
+    "twitch-chat.css"
+  ],
+  "socket": true,
+  "dependencies": [
+    {
+      "name": "_chatcommands",
+      "type": "module",
+      "manifest": "https://github.com/League-of-Foundry-Developers/Chat-Commands-Lib/releases/download/1.2.0/module.json"
+    },
+    {
+      "name": "socketlib",
+      "type": "module",
+      "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/v1.0.12/module.json"
+    }
+  ]
+}
